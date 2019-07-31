@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  font-size: 32px;
+}
+h1{
+  font-size: 48px;
+  font-weight: normal;
+  position: relative;
+  top: -20px;
+  left: -5px;
+}
+.container{
+  padding: 34px 21px;
+  background: #BB1233;
+  width: 32.8%;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+.logo{
+  max-width: 120px;
+  margin-left: 14px;
+  margin-bottom: 12px;
+}
+.display{
+  background: #2D2829;
+  height: 100px;
+  width: 94%;
+  border-radius: 50px;
+  margin: 0 auto;
+  margin-bottom: 21px;
+  color: #FFF;
+  text-align: right;
+  padding: 10px;
+}
+.App{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+button{
+  width: 80px;
+  margin: 6.5px 13.13px;
+  padding: 21px 10px;
+  border-radius: 50px;
+  box-shadow: 0px 4px #420208;
+  color: #FFF;
+  border: none;
+}
+button:hover{
+  filter: brightness(120%);
+}
+button:active{
+  transform: translateY(4px);
+  box-shadow: 0px 0px;
+}
+button:nth-child(10){
+  width: 193px;
+  border-radius: 40px;
+  margin-right: 6px;
+}
+button:focus{
+  outline: 0;
+}
+.left{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.right{
+  display: flex;
+}
+.Numbers-Btn{
+  background: #113C78;
+}
+.Specials-Btn{
+  background: #2160B0;
+}
+.Operators-Btn{
+  background: #3DB5E5;
+}
